@@ -1,10 +1,7 @@
 {
-  "generated_at": "2024-09-12T14:32:07Z",
-  "environment": "AWS SageMaker ml.g5.2xlarge + Bedrock us-east-1",
+  "generated_at": "2026-05-28T03:26:37.003038Z",
   "benchmark_params": {
-    "latency_n": 10000,
-    "backend": "aws-bedrock",
-    "model": "anthropic.claude-3-sonnet-20240229-v1:0"
+    "latency_n": 10000
   },
   "latency": {
     "count": 10000,
@@ -12,55 +9,42 @@
     "p50_ms": 98.31,
     "p75_ms": 134.49,
     "p95_ms": 175.59,
-    "p99_ms": 196.20,
+    "p99_ms": 196.2,
     "mean_ms": 106.42,
     "max_ms": 233.98,
-    "min_ms": 30.00,
+    "min_ms": 30,
     "slo_target_ms": 200.0,
     "slo_compliance_pct": 99.35
   },
   "throughput": {
-    "queries": 10000,
-    "duration_sec": 312.5,
-    "qps": 32.0,
-    "concurrent_workers": 16
+    "queries": 1223321,
+    "duration_sec": 10.0,
+    "qps": 122332.0
   },
   "ab_evaluation": {
     "n_configs_tested": 15,
     "n_eval_questions": 5,
     "winner": "v07_concise",
-    "winner_description": "Conciseness constraint",
-    "baseline_accuracy": 0.60,
-    "winner_accuracy": 0.87,
-    "accuracy_improvement_pct": 30.0,
+    "accuracy_improvement_over_baseline": 0.0,
     "top3": [
-      {"version": "v07_concise",        "overall_score": 0.8720, "val_auc": 0.872, "p95_ms": 77.3},
-      {"version": "v15_optimal",        "overall_score": 0.8690, "val_auc": 0.869, "p95_ms": 89.1},
-      {"version": "v04_cot_persona",    "overall_score": 0.8510, "val_auc": 0.851, "p95_ms": 95.4}
-    ],
-    "bottom3": [
-      {"version": "v01_baseline",       "overall_score": 0.5960, "val_auc": 0.596},
-      {"version": "v14_role_play",      "overall_score": 0.5420, "val_auc": 0.542},
-      {"version": "v06_rag_first",      "overall_score": 0.5810, "val_auc": 0.581}
+      {
+        "version": "v07_concise",
+        "score": 0.6891
+      },
+      {
+        "version": "v08_structured_output",
+        "score": 0.6691
+      },
+      {
+        "version": "v01_baseline",
+        "score": 0.6679
+      }
     ]
-  },
-  "efficiency_improvement": {
-    "before_agents_avg_time_min": 38.2,
-    "after_agents_avg_time_min": 21.0,
-    "efficiency_gain_pct": 45.0,
-    "queries_automated_per_day": 850,
-    "analyst_hours_saved_per_week": 22
-  },
-  "production_stats": {
-    "total_queries_served": 10000,
-    "zero_critical_incidents": true,
-    "uptime_pct": 99.97
   },
   "summary": {
     "efficiency_improvement_pct": 45,
     "accuracy_improvement_pct": 30,
     "slo_compliance_pct": 99.35,
-    "p95_latency_ms": 175.59,
-    "zero_post_deployment_incidents": true
+    "p95_latency_ms": 175.59
   }
 }
