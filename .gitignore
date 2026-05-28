@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+*.db
+*.pkl
+*.ubj
+mlruns/
+mlartifacts/
+.DS_Store

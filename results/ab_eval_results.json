@@ -1,0 +1,682 @@
+{
+  "timestamp": "2026-05-28T02:20:01.159503",
+  "n_configs": 15,
+  "n_questions": 5,
+  "raw_results": [
+    {
+      "prompt_version": "v01_baseline",
+      "eval_id": "eval-001",
+      "latency_ms": 75.98848001756332,
+      "answer_length": 181,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v01_baseline",
+      "eval_id": "eval-002",
+      "latency_ms": 80.6399512373667,
+      "answer_length": 181,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v01_baseline",
+      "eval_id": "eval-003",
+      "latency_ms": 71.12732218039847,
+      "answer_length": 181,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v01_baseline",
+      "eval_id": "eval-004",
+      "latency_ms": 106.08310595709726,
+      "answer_length": 181,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v01_baseline",
+      "eval_id": "eval-005",
+      "latency_ms": 68.474160453943,
+      "answer_length": 181,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v02_cot",
+      "eval_id": "eval-001",
+      "latency_ms": 126.94360309805194,
+      "answer_length": 186,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v02_cot",
+      "eval_id": "eval-002",
+      "latency_ms": 123.8642012939932,
+      "answer_length": 186,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v02_cot",
+      "eval_id": "eval-003",
+      "latency_ms": 124.3567228563368,
+      "answer_length": 186,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v02_cot",
+      "eval_id": "eval-004",
+      "latency_ms": 112.96517209468958,
+      "answer_length": 186,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v02_cot",
+      "eval_id": "eval-005",
+      "latency_ms": 136.5816936374455,
+      "answer_length": 186,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v03_persona",
+      "eval_id": "eval-001",
+      "latency_ms": 89.29952378042366,
+      "answer_length": 169,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v03_persona",
+      "eval_id": "eval-002",
+      "latency_ms": 89.51677039614408,
+      "answer_length": 169,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v03_persona",
+      "eval_id": "eval-003",
+      "latency_ms": 104.00915121046202,
+      "answer_length": 169,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v03_persona",
+      "eval_id": "eval-004",
+      "latency_ms": 82.57543467657773,
+      "answer_length": 169,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v03_persona",
+      "eval_id": "eval-005",
+      "latency_ms": 84.69509153256256,
+      "answer_length": 169,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v04_cot_persona",
+      "eval_id": "eval-001",
+      "latency_ms": 125.02743537892495,
+      "answer_length": 165,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v04_cot_persona",
+      "eval_id": "eval-002",
+      "latency_ms": 129.18338528554548,
+      "answer_length": 165,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v04_cot_persona",
+      "eval_id": "eval-003",
+      "latency_ms": 159.61820908456383,
+      "answer_length": 165,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v04_cot_persona",
+      "eval_id": "eval-004",
+      "latency_ms": 135.55133966134235,
+      "answer_length": 165,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v04_cot_persona",
+      "eval_id": "eval-005",
+      "latency_ms": 134.95027374143382,
+      "answer_length": 165,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v05_sql_first",
+      "eval_id": "eval-001",
+      "latency_ms": 83.62779995133465,
+      "answer_length": 175,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v05_sql_first",
+      "eval_id": "eval-002",
+      "latency_ms": 75.38510193461806,
+      "answer_length": 175,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v05_sql_first",
+      "eval_id": "eval-003",
+      "latency_ms": 110.64664609169371,
+      "answer_length": 175,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v05_sql_first",
+      "eval_id": "eval-004",
+      "latency_ms": 106.74645646760975,
+      "answer_length": 175,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v05_sql_first",
+      "eval_id": "eval-005",
+      "latency_ms": 100.15895289400056,
+      "answer_length": 175,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v06_rag_first",
+      "eval_id": "eval-001",
+      "latency_ms": 98.86285632071659,
+      "answer_length": 173,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v06_rag_first",
+      "eval_id": "eval-002",
+      "latency_ms": 94.34589434907271,
+      "answer_length": 173,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v06_rag_first",
+      "eval_id": "eval-003",
+      "latency_ms": 121.75972029001014,
+      "answer_length": 173,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v06_rag_first",
+      "eval_id": "eval-004",
+      "latency_ms": 105.99521948716595,
+      "answer_length": 173,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v06_rag_first",
+      "eval_id": "eval-005",
+      "latency_ms": 104.55139725771133,
+      "answer_length": 173,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v07_concise",
+      "eval_id": "eval-001",
+      "latency_ms": 76.82471845406265,
+      "answer_length": 167,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v07_concise",
+      "eval_id": "eval-002",
+      "latency_ms": 69.26107445335815,
+      "answer_length": 167,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v07_concise",
+      "eval_id": "eval-003",
+      "latency_ms": 77.29319373444667,
+      "answer_length": 167,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v07_concise",
+      "eval_id": "eval-004",
+      "latency_ms": 71.16860720330318,
+      "answer_length": 167,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v07_concise",
+      "eval_id": "eval-005",
+      "latency_ms": 76.48025064501337,
+      "answer_length": 167,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v08_structured_output",
+      "eval_id": "eval-001",
+      "latency_ms": 99.91505975658208,
+      "answer_length": 178,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v08_structured_output",
+      "eval_id": "eval-002",
+      "latency_ms": 74.33163084691783,
+      "answer_length": 178,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v08_structured_output",
+      "eval_id": "eval-003",
+      "latency_ms": 96.10689949841014,
+      "answer_length": 178,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v08_structured_output",
+      "eval_id": "eval-004",
+      "latency_ms": 102.42226173323004,
+      "answer_length": 178,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v08_structured_output",
+      "eval_id": "eval-005",
+      "latency_ms": 93.48680086408385,
+      "answer_length": 178,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v09_cot_structured",
+      "eval_id": "eval-001",
+      "latency_ms": 130.5904181507507,
+      "answer_length": 168,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v09_cot_structured",
+      "eval_id": "eval-002",
+      "latency_ms": 115.71816872581599,
+      "answer_length": 168,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v09_cot_structured",
+      "eval_id": "eval-003",
+      "latency_ms": 117.79120636073178,
+      "answer_length": 168,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v09_cot_structured",
+      "eval_id": "eval-004",
+      "latency_ms": 118.26778557907437,
+      "answer_length": 168,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v09_cot_structured",
+      "eval_id": "eval-005",
+      "latency_ms": 121.60706623325834,
+      "answer_length": 168,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v10_few_shot",
+      "eval_id": "eval-001",
+      "latency_ms": 106.54442307647437,
+      "answer_length": 179,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v10_few_shot",
+      "eval_id": "eval-002",
+      "latency_ms": 104.77053286154754,
+      "answer_length": 179,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v10_few_shot",
+      "eval_id": "eval-003",
+      "latency_ms": 116.40579204228385,
+      "answer_length": 179,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v10_few_shot",
+      "eval_id": "eval-004",
+      "latency_ms": 110.2450542456404,
+      "answer_length": 179,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v10_few_shot",
+      "eval_id": "eval-005",
+      "latency_ms": 85.07335473433477,
+      "answer_length": 179,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v11_cot_few_shot",
+      "eval_id": "eval-001",
+      "latency_ms": 123.59642674023533,
+      "answer_length": 159,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v11_cot_few_shot",
+      "eval_id": "eval-002",
+      "latency_ms": 111.21423206411765,
+      "answer_length": 159,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v11_cot_few_shot",
+      "eval_id": "eval-003",
+      "latency_ms": 138.18089749247605,
+      "answer_length": 159,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v11_cot_few_shot",
+      "eval_id": "eval-004",
+      "latency_ms": 129.89667251107662,
+      "answer_length": 159,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v11_cot_few_shot",
+      "eval_id": "eval-005",
+      "latency_ms": 141.4425767784853,
+      "answer_length": 159,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v12_negative",
+      "eval_id": "eval-001",
+      "latency_ms": 105.67898226884455,
+      "answer_length": 182,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v12_negative",
+      "eval_id": "eval-002",
+      "latency_ms": 64.76597911546874,
+      "answer_length": 182,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v12_negative",
+      "eval_id": "eval-003",
+      "latency_ms": 76.44457561048547,
+      "answer_length": 182,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v12_negative",
+      "eval_id": "eval-004",
+      "latency_ms": 80.378128397686,
+      "answer_length": 182,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v12_negative",
+      "eval_id": "eval-005",
+      "latency_ms": 92.52682791305118,
+      "answer_length": 182,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v13_multi_tool",
+      "eval_id": "eval-001",
+      "latency_ms": 153.15259869553987,
+      "answer_length": 180,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v13_multi_tool",
+      "eval_id": "eval-002",
+      "latency_ms": 157.2813296427085,
+      "answer_length": 180,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v13_multi_tool",
+      "eval_id": "eval-003",
+      "latency_ms": 137.65074651440347,
+      "answer_length": 180,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v13_multi_tool",
+      "eval_id": "eval-004",
+      "latency_ms": 132.1372743159149,
+      "answer_length": 180,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v13_multi_tool",
+      "eval_id": "eval-005",
+      "latency_ms": 139.97854807156438,
+      "answer_length": 180,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v14_role_play",
+      "eval_id": "eval-001",
+      "latency_ms": 138.07745362887368,
+      "answer_length": 185,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v14_role_play",
+      "eval_id": "eval-002",
+      "latency_ms": 166.96491480738405,
+      "answer_length": 185,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v14_role_play",
+      "eval_id": "eval-003",
+      "latency_ms": 173.16030344334598,
+      "answer_length": 185,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v14_role_play",
+      "eval_id": "eval-004",
+      "latency_ms": 159.33313895158147,
+      "answer_length": 185,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v14_role_play",
+      "eval_id": "eval-005",
+      "latency_ms": 155.02585505490802,
+      "answer_length": 185,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v15_optimal",
+      "eval_id": "eval-001",
+      "latency_ms": 145.6253324003167,
+      "answer_length": 209,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    },
+    {
+      "prompt_version": "v15_optimal",
+      "eval_id": "eval-002",
+      "latency_ms": 143.19772299631435,
+      "answer_length": 209,
+      "contains_score": 0.3333333333333333,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v15_optimal",
+      "eval_id": "eval-003",
+      "latency_ms": 134.64244662974224,
+      "answer_length": 209,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 3,
+      "error": null
+    },
+    {
+      "prompt_version": "v15_optimal",
+      "eval_id": "eval-004",
+      "latency_ms": 127.90635664882687,
+      "answer_length": 209,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 1,
+      "error": null
+    },
+    {
+      "prompt_version": "v15_optimal",
+      "eval_id": "eval-005",
+      "latency_ms": 139.58055286560239,
+      "answer_length": 209,
+      "contains_score": 0.6666666666666666,
+      "tool_calls": 2,
+      "error": null
+    }
+  ]
+}
